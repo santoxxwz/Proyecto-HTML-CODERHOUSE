@@ -8,6 +8,7 @@ body {
 .imgL {
     width: 150px;
     height: 150px;
+    transition: all 0.7s;
 }
 
 header {
@@ -61,11 +62,17 @@ section h1 {
     background-color: rgb(247, 221, 226);
 }
 
-.redes {
-    color: #2d365e;
-    font-weight: 400;
-    font-size: 17px;
+footer{
+    background-color: #f8f2ce;
+    color: #132161 ;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
+    font-size: 15 px;
+    height: 100px;
+}
+footer i{
+    color:#132161;
+    font-size: 40px;
 }
 
 /* estilo ubicacion y baners*/
@@ -172,7 +179,8 @@ section h1 {
 
 .img1 {
     grid-area: img1;
-    background-color: #d3c8fd;
+    background-image: url(../imagenes/imge1.png);
+    background-size: cover;
     color: #2d365e;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
@@ -200,7 +208,8 @@ section h1 {
 
 .img4 {
     grid-area: img4;
-    background-color: #d3c8fd;
+    background-image: url(../imagenes/imge1.png);
+    background-size: cover;
     color: #2d365e;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
@@ -211,7 +220,8 @@ section h1 {
 
 .img5 {
     grid-area: img5;
-    background-color: #d3c8fd;
+    background-image: url(../imagenes/imge1.png);
+    background-size: cover;
     color: #2d365e;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
@@ -238,7 +248,8 @@ section h1 {
 
 .img8 {
     grid-area: img8;
-    background-color: #d3c8fd;
+    background-image: url(../imagenes/imge1.png);
+    background-size: cover;
     color: #2d365e;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
@@ -249,7 +260,8 @@ section h1 {
 
 .img9 {
     grid-area: img9;
-    background-color: #d3c8fd;
+    background-image: url(../imagenes/imge1.png);
+    background-size: cover;
     color: #2d365e;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
@@ -275,7 +287,8 @@ section h1 {
 
 .img12 {
     grid-area: img12;
-    background-color: #d3c8fd;
+    background-image: url(../imagenes/imge1.png);
+    background-size: cover;
     color: #2d365e;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
