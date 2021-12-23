@@ -1,56 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-/* Estilo INICIO Y OTROS */
 body {
     background-color: #ffddf2;
 }
 
-.imgL {
-    width: 150px;
-    height: 150px;
-    transition: all 0.7s;
-}
-
-header {
-    height: 100 px;
-    width: 100%;
-    background-image: url(../imagenes/banner.png);
-}
-
-nav {
-    height: 80px;
-    width: 100%;
-    background-color: #cee3fd;
-    display: flex;
-    justify-content: center;
-}
-
 .navbar {
-    padding: 0px 0px 0px 10px;
-    display: flex;
-    list-style: none;
+    background-color: #f793c1 !important;
+
 }
 
-nav a {
-    color: #132161;
-    text-decoration: none;
+.nav-link {
+    color: #194e9e !important;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
+.navbar-brand .imgL {
+    width: 100px;
+    height: 100px;
 }
 
-nav li {
-    list-style: none;
-    display: inline-block;
-    padding: 30px;
-    font-family: 'Roboto', sans-serif;
-    padding: 0px 10px;
+.divcoder {
+    height: 200px;
+    border: 2px solid black !important;
 }
 
-nav li:hover {
-    background-color: #f2ffdd;
+main {
+    margin-top: 20px;
+}
+
+/*index*/
+
+div .carousel-item {
+    margin-top: 50px;
+}
+
+div .carousel-item {
+    margin-left: 350px !important;
+    margin-right: 100px !important;
+    height: 400px;
+    width: 1200px;
+}
+
+section article .formulario {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 60%;
+    color: #194e9e !important;
+    align-items: center;
+}
+
+.carousel .d-block {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+
+}
+
+h5 {
+    color: rgb(240, 15, 240);
+}
+
+/*Ubicacion y titulos*/
+article .ubicacion {
+    align-items: center;
 }
 
 section h1 {
@@ -62,20 +73,6 @@ section h1 {
     background-color: rgb(247, 221, 226);
 }
 
-footer{
-    background-color: #f8f2ce;
-    color: #132161 ;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15 px;
-    height: 100px;
-}
-footer i{
-    color:#132161;
-    font-size: 40px;
-}
-
-/* estilo ubicacion y baners*/
 .titulo {
     color: rgb(194, 54, 77);
     font-weight: 400;
@@ -97,64 +94,7 @@ footer i{
     margin: auto;
 }
 
-/* estilo index y Productos*/
-.barra {
-    background-color: #88d2e9;
-    display: grid;
-    grid-template-rows: 100px 100px 100px 100px 200px;
-    grid-template-columns: 20%;
-    grid-template-areas:
-        "item1 item1"
-        "item1 item1"
-        "item2 item2"
-        "item2 item2"
-        "item3 item3"
-    ;
-}
-
-.item1 {
-    grid-area: item1;
-    background-color: rgb(251, 208, 54);
-    color: #f6f7fa;
-    font-size: 40px;
-    font-family: 'Roboto', sans-serif;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    background-position: center;
-    background-size: cover;
-
-}
-
-.item2 {
-    grid-area: item2;
-    background-color: rgb(54, 54, 116);
-    color: #f6f7fa;
-    font-size: 40px;
-    font-family: 'Roboto', sans-serif;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    background-position: center;
-    background-size: cover;
-
-
-}
-
-.item3 {
-    grid-area: item3;
-    background-color: rgb(204, 50, 42);
-    color: #f6f7fa;
-    font-size: 40px;
-    font-family: 'Roboto', sans-serif;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    background-position: center;
-    background-size: cover;
-
-
-}
+/*Productos*/
 
 .producto {
     background-color: #88d2e9;
@@ -296,42 +236,23 @@ footer i{
     display: flex;
     justify-content: center;
 }
-/**movile**/
-@media only screen and (min-width:300px) and (max-width:720px) {
-    .navbar {
-        display:grid;
-        height: 1vh;
-        list-style: none;
-        padding:0px 0px 0px 10px;
-        flex-wrap: wrap;
-    }
-    header {
-        height: 300px;
-        width: 92%;
-        grid-area:header;
-        display: flex;
-        justify-content: center;
-        padding: 20px;
-        flex-wrap: wrap;
-    }
-    header .imgL{
-        font: size 2.5rem;
-    }
-    .navbar li{
-        padding: 0px;
 
-    }
-    nav{
-        height: 140px;
-    }
-    section{
-        flex-basis: 50%;
-    }
-    footer{
-        flex-basis: 50%;
-    }
-    iframe{
-        width: 400px;
-        height: 400px;
-    }
+footer {
+    margin-top: 50px;
+    background-color: #f8f2ce;
+    color: #132161;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15 px;
+    height: 100px;
+}
+
+footer i {
+    color: #132161;
+    font-size: 40px;
+}
+
+.media {
+    margin-left: 30px;
+    margin-top: 50px;
 }
