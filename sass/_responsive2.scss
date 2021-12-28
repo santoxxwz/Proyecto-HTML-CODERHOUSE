@@ -1,0 +1,32 @@
+@media only screen and (min-width:300px) and (max-width:720px) {
+    iframe {
+        width: 320px;
+        height: 320px;
+
+    }
+
+    .formulario {
+        margin-right: $px4;
+    }
+
+    section .imagenN {
+        margin-top: 70px;
+        width: 130px;
+        height: 135px;
+
+    }
+
+    .media-body p {
+        margin-top: $px5;
+        margin-left: $px4;
+        color: $color4;
+    }
+
+    .producto p {
+        text-align: center;
+    }
+
+
+
+
+}
