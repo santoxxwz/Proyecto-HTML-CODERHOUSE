@@ -2,6 +2,7 @@
 
 /* Estilo INICIO Y OTROS */
 body {
+<<<<<<< HEAD
     background-color: #ffddf2;
 }
 
@@ -78,6 +79,254 @@ section h1 {
 }
 
 .parrafo {
+=======
+  background-color: #ffddf2;
+}
+body .container {
+  margin-top: 40px;
+}
+body .container .navbar {
+  background-color: #f793c1 !important;
+}
+body .container .navbar .navbar-brand .imgL {
+  width: 100px;
+  height: 100px;
+}
+body .container .navbar .nav-link {
+  color: #194e9e !important;
+}
+
+div .carousel-item {
+  margin-top: 50px;
+}
+
+.carousel p {
+  font-size: 17px;
+}
+
+h5 {
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Spline Sans", sans-serif;
+}
+
+section h1 {
+  color: #f36880;
+  font-size: 40px;
+  line-height: 100px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: #f7dde2;
+  margin-top: 30px;
+}
+section h1.parrafo {
+  color: #2d365e;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.formulario {
+  margin-right: 30%;
+  margin-top: 50px;
+  margin-left: 35%;
+}
+.formulario.form-group {
+  margin-left: px;
+}
+
+.btn-primary {
+  margin-left: 25%;
+}
+
+.container-fluid .n-right {
+  background-image: url(../imagenes/imgVision.png);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+}
+.container-fluid .n-right2 {
+  background-image: url(../imagenes/colombia.png);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+}
+
+section .textN {
+  color: #e62eae;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+
+section .card {
+  background-color: #88d2e9;
+  display: grid;
+  grid-template-rows: 300px 150px 300px 150px 300px 150px 300px 150px 300px 150px 300px 150px;
+  grid-template-areas: "img1 img2" "img1 img2" "img3 img4" "img3 img4" "img5 img6" "img5 img6" "img7 img8" "img7 img8" "img9 img10" "img9 img10" "img11 img12" "img11 img12";
+}
+
+.img1 {
+  grid-area: img1;
+  background-image: url(../imagenes/imge1.png);
+  background-size: cover;
+  color: #2d365e;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.img2 {
+  grid-area: img2;
+  background-image: url(../imagenes/paletasLeche.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img3 {
+  grid-area: img3;
+  background-image: url(../imagenes/paleta.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img4 {
+  grid-area: img4;
+  background-image: url(../imagenes/imge1.png);
+  background-size: cover;
+  color: #2d365e;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.img5 {
+  grid-area: img5;
+  background-image: url(../imagenes/imge1.png);
+  background-size: cover;
+  color: #2d365e;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.img6 {
+  grid-area: img6;
+  background-image: url(../imagenes/heladosLeche.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img7 {
+  grid-area: img7;
+  background-image: url(../imagenes/tipoPolrt.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img8 {
+  grid-area: img8;
+  background-image: url(../imagenes/imge1.png);
+  background-size: cover;
+  color: #2d365e;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.img9 {
+  grid-area: img9;
+  background-image: url(../imagenes/imge1.png);
+  background-size: cover;
+  color: #2d365e;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.img10 {
+  grid-area: img10;
+  background-image: url(../imagenes/helado.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img11 {
+  grid-area: img11;
+  background-image: url(../imagenes/chococono.png);
+  background-position: center;
+  background-size: flex;
+}
+
+.img12 {
+  grid-area: img12;
+  background-image: url(../imagenes/imge1.png);
+  background-size: cover;
+  color: #2d365e;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #f8f2ce;
+  color: #2d365e;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  height: 100px;
+}
+
+footer i {
+  color: #2d365e;
+  font-size: 40px;
+}
+
+.media {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+article.ubicacion {
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 720px) {
+  iframe {
+    width: 320px;
+    height: 320px;
+  }
+
+  .formulario {
+    margin-right: 15px;
+  }
+
+  section .imagenN {
+    margin-top: 70px;
+    width: 130px;
+    height: 135px;
+  }
+
+  .media-body p {
+    margin-top: 100px;
+    margin-left: 15px;
+>>>>>>> cd902d7 (SASS_II_+_SEO)
     color: #2d365e;
     font-weight: 400;
     font-size: 17px;
