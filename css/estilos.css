@@ -1,31 +1,26 @@
 body {
   background-color: #ffddf2;
 }
-body.container {
+body .container {
   margin-top: 40px;
 }
-body.container.navbar {
+body .container .navbar {
   background-color: #f793c1 !important;
 }
-body.container.navbar.navbar-brand .imgL {
+body .container .navbar .navbar-brand .imgL {
   width: 100px;
   height: 100px;
 }
-body.container.navbar.navbar-brand .imgL.nav-link {
+body .container .navbar .nav-link {
   color: #194e9e !important;
-}
-
-.divcoder {
-  height: 200px;
-  border: 2px solid black !important;
-}
-
-main {
-  margin-top: 30px;
 }
 
 div .carousel-item {
   margin-top: 50px;
+}
+
+.carousel p {
+  font-size: 17px;
 }
 
 h5 {
@@ -35,26 +30,43 @@ h5 {
   font-family: "Spline Sans", sans-serif;
 }
 
-.carousel p {
+section h1 {
+  color: #f36880;
+  font-size: 40px;
+  line-height: 100px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: #f7dde2;
+  margin-top: 30px;
+}
+section h1.parrafo {
+  color: #2d365e;
+  font-weight: 400;
   font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 .formulario {
-  margin-right: 60%;
-  margin-left: 50px;
+  margin-right: 30%;
+  margin-top: 50px;
+  margin-left: 35%;
 }
 .formulario.form-group {
-  margin-left: 0px;
+  margin-left: px;
 }
 
-.n-right {
+.btn-primary {
+  margin-left: 25%;
+}
+
+.container-fluid .n-right {
   background-image: url(../imagenes/imgVision.png);
   height: 300px;
   width: 300px;
   background-repeat: no-repeat;
 }
-
-.n-right2 {
+.container-fluid .n-right2 {
   background-image: url(../imagenes/colombia.png);
   height: 300px;
   width: 300px;
@@ -208,30 +220,10 @@ footer i {
   margin-top: 50px;
 }
 
-article .ubicacion {
+article.ubicacion {
   align-items: center;
-}
-
-section h1 {
-  color: #f36880;
-  font-size: 40px;
-  line-height: 100px;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  background-color: #f7dde2;
-  margin-top: 30px;
-}
-
-.parrafo {
-  color: #2d365e;
-  font-weight: 400;
-  font-size: 17px;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-}
-
-.ubicacion {
   margin-top: 50px;
+  margin-left: 50px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 720px) {
