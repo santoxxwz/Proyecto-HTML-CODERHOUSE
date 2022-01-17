@@ -60,6 +60,27 @@ section h1.parrafo {
   margin-left: 25%;
 }
 
+.nosotros .btn--red1 {
+  background-color: #fffff0;
+  height: 70px;
+  width: 500px;
+  color: #e62eae;
+  border: 1px solid #ffddf2;
+  margin-left: 150px;
+  text-align: center;
+  color: #fff;
+}
+.nosotros .btn--red2 {
+  background-color: #eff4fe;
+  height: 70px;
+  width: 500px;
+  color: #e62eae;
+  border: 1px solid #ffddf2;
+  margin-left: 150px;
+  text-align: center;
+  color: #fff;
+}
+
 .container-fluid .n-right {
   background-image: url(../imagenes/imgVision.png);
   height: 300px;
@@ -75,7 +96,6 @@ section h1.parrafo {
 
 section .textN {
   color: #e62eae;
-  margin-left: 15%;
   margin-top: 20px;
 }
 
@@ -86,7 +106,7 @@ section .card {
   grid-template-areas: "img1 img2" "img1 img2" "img3 img4" "img3 img4" "img5 img6" "img5 img6" "img7 img8" "img7 img8" "img9 img10" "img9 img10" "img11 img12" "img11 img12";
 }
 
-.img1 {
+.img1, .img12, .img9, .img8, .img5, .img4 {
   grid-area: img1;
   background-image: url(../imagenes/imge1.png);
   background-size: cover;
@@ -99,105 +119,70 @@ section .card {
 }
 
 .img2 {
-  grid-area: img2;
-  background-image: url(../imagenes/paletasLeche.jpg);
   background-position: center;
   background-size: cover;
+  grid-area: img2;
+  background-image: url(../imagenes/paletasLeche.jpg);
 }
 
 .img3 {
-  grid-area: img3;
-  background-image: url(../imagenes/paleta.jpg);
   background-position: center;
   background-size: cover;
+  grid-area: img3;
+  background-image: url(../imagenes/paleta.jpg);
 }
 
 .img4 {
   grid-area: img4;
   background-image: url(../imagenes/imge1.png);
-  background-size: cover;
-  color: #2d365e;
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 .img5 {
   grid-area: img5;
   background-image: url(../imagenes/imge1.png);
-  background-size: cover;
-  color: #2d365e;
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 .img6 {
-  grid-area: img6;
-  background-image: url(../imagenes/heladosLeche.jpg);
   background-position: center;
   background-size: cover;
+  grid-area: img6;
+  background-image: url(../imagenes/heladosLeche.jpg);
 }
 
 .img7 {
-  grid-area: img7;
-  background-image: url(../imagenes/tipoPolrt.jpg);
   background-position: center;
   background-size: cover;
+  grid-area: img7;
+  background-image: url(../imagenes/tipoPolrt.jpg);
 }
 
 .img8 {
   grid-area: img8;
   background-image: url(../imagenes/imge1.png);
-  background-size: cover;
-  color: #2d365e;
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 .img9 {
   grid-area: img9;
   background-image: url(../imagenes/imge1.png);
-  background-size: cover;
-  color: #2d365e;
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 .img10 {
-  grid-area: img10;
-  background-image: url(../imagenes/helado.jpg);
   background-position: center;
   background-size: cover;
+  grid-area: img10;
+  background-image: url(../imagenes/helado.jpg);
 }
 
 .img11 {
+  background-position: center;
+  background-size: cover;
   grid-area: img11;
   background-image: url(../imagenes/chococono.png);
-  background-position: center;
-  background-size: flex;
 }
 
 .img12 {
   grid-area: img12;
   background-image: url(../imagenes/imge1.png);
-  background-size: cover;
-  color: #2d365e;
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 footer {
