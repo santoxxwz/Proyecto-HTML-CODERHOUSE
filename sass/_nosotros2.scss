@@ -1,0 +1,45 @@
+.nosotros{
+$redes: (
+    red1: #fffff0,
+    red2:  #eff4fe,
+    );
+@each  $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: $color;
+        height: 70px;
+        width: 500px;
+        color: rgb(230, 46, 174);
+        border: 1px solid $color1;
+        margin-left: 150px;
+        text-align: center ;
+        color: #fff;
+
+    }
+}
+}
+
+.container-fluid{
+    .n-right {
+        background-image: url(../imagenes/imgVision.png);
+        height: $px7;
+        width: $px7;
+        background-repeat: no-repeat;
+    }
+
+    & .n-right2 {
+        background-image: url(../imagenes/colombia.png);
+        height: $px7;
+        width: $px7;
+        background-repeat: no-repeat;
+    }
+}
+section .textN {
+    color: rgb(230, 46, 174);
+    
+    margin-top: 20px;
+}
+
+
+
+
+

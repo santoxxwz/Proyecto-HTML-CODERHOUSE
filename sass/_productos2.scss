@@ -1,0 +1,131 @@
+section .card {
+    background-color: #88d2e9;
+    display: grid;
+    grid-template-rows: $px7 $px6 $px7 $px6 $px7 $px6 $px7 $px6 $px7 $px6 $px7 $px6;
+    grid-template-areas:
+        "img1 img2"
+        "img1 img2"
+        "img3 img4"
+        "img3 img4"
+        "img5 img6"
+        "img5 img6"
+        "img7 img8"
+        "img7 img8"
+        "img9 img10"
+        "img9 img10"
+        "img11 img12"
+        "img11 img12"
+    ;
+
+}
+@mixin sizes ($bposition, $bsize,){
+    background-position: $bposition;
+    background-size: $bsize;
+}    
+.img1 {
+    grid-area: img1;
+    background-image: url(../imagenes/imge1.png);
+    background-size: cover;
+    color: $color4;
+    font-size: $px2;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img2 {
+    @include sizes(center,cover);
+    grid-area: img2;
+    background-image: url(../imagenes/paletasLeche.jpg);
+
+
+}
+
+.img3 {
+    @include sizes(center,cover);
+    grid-area: img3;
+    background-image: url(../imagenes/paleta.jpg);
+
+
+}
+
+.img4 {
+    @extend .img1;
+    grid-area: img4;
+    background-image: url(../imagenes/imge1.png);
+}
+
+.img5 {
+    @extend .img1;
+    grid-area: img5;
+    background-image: url(../imagenes/imge1.png);
+}
+
+.img6 {
+    @include sizes(center,cover);
+    grid-area: img6;
+    background-image: url(../imagenes/heladosLeche.jpg);
+
+
+}
+
+.img7 {
+    @include sizes(center,cover);
+    grid-area: img7;
+    background-image: url(../imagenes/tipoPolrt.jpg);
+
+}
+
+.img8 {
+    @extend .img1;
+    grid-area: img8;
+    background-image: url(../imagenes/imge1.png);
+
+}
+
+.img9 {
+    @extend .img1;
+    grid-area: img9;
+    background-image: url(../imagenes/imge1.png);
+}
+
+.img10 {
+    @include sizes(center,cover);
+    grid-area: img10;
+    background-image: url(../imagenes/helado.jpg);
+
+}
+
+.img11 {
+    @include sizes(center,cover);
+    grid-area: img11;
+    background-image: url(../imagenes/chococono.png);
+
+}
+
+.img12 {
+    @extend .img1;
+    grid-area: img12;
+    background-image: url(../imagenes/imge1.png);
+}
+
+footer {
+    margin-top: $px;
+    background-color: #f8f2ce;
+    color: $color4;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: $px4;
+    height: $px5;
+}
+
+footer i {
+    color: $color4;
+    font-size: $px2;
+}
+
+.media {
+    margin-left: 30px;
+    margin-top: $px;
+}
