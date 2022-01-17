@@ -1,31 +1,26 @@
 body {
   background-color: #ffddf2;
 }
-body.container {
+body .container {
   margin-top: 40px;
 }
-body.container.navbar {
+body .container .navbar {
   background-color: #f793c1 !important;
 }
-body.container.navbar.navbar-brand .imgL {
+body .container .navbar .navbar-brand .imgL {
   width: 100px;
   height: 100px;
 }
-body.container.navbar.navbar-brand .imgL.nav-link {
+body .container .navbar .nav-link {
   color: #194e9e !important;
-}
-
-.divcoder {
-  height: 200px;
-  border: 2px solid black !important;
-}
-
-main {
-  margin-top: 30px;
 }
 
 div .carousel-item {
   margin-top: 50px;
+}
+
+.carousel p {
+  font-size: 17px;
 }
 
 h5 {
@@ -35,26 +30,64 @@ h5 {
   font-family: "Spline Sans", sans-serif;
 }
 
-.carousel p {
+section h1 {
+  color: #f36880;
+  font-size: 40px;
+  line-height: 100px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: #f7dde2;
+  margin-top: 30px;
+}
+section h1.parrafo {
+  color: #2d365e;
+  font-weight: 400;
   font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 .formulario {
-  margin-right: 60%;
-  margin-left: 50px;
+  margin-right: 30%;
+  margin-top: 50px;
+  margin-left: 35%;
 }
 .formulario.form-group {
-  margin-left: 0px;
+  margin-left: px;
 }
 
-.n-right {
+.btn-primary {
+  margin-left: 25%;
+}
+
+.nosotros .btn--red1 {
+  background-color: #fffff0;
+  height: 70px;
+  width: 500px;
+  color: #e62eae;
+  border: 1px solid #ffddf2;
+  margin-left: 150px;
+  text-align: center;
+  color: #fff;
+}
+.nosotros .btn--red2 {
+  background-color: #eff4fe;
+  height: 70px;
+  width: 500px;
+  color: #e62eae;
+  border: 1px solid #ffddf2;
+  margin-left: 150px;
+  text-align: center;
+  color: #fff;
+}
+
+.container-fluid .n-right {
   background-image: url(../imagenes/imgVision.png);
   height: 300px;
   width: 300px;
   background-repeat: no-repeat;
 }
-
-.n-right2 {
+.container-fluid .n-right2 {
   background-image: url(../imagenes/colombia.png);
   height: 300px;
   width: 300px;
@@ -63,7 +96,6 @@ h5 {
 
 section .textN {
   color: #e62eae;
-  margin-left: 15%;
   margin-top: 20px;
 }
 
@@ -74,7 +106,7 @@ section .card {
   grid-template-areas: "img1 img2" "img1 img2" "img3 img4" "img3 img4" "img5 img6" "img5 img6" "img7 img8" "img7 img8" "img9 img10" "img9 img10" "img11 img12" "img11 img12";
 }
 
-.img1 {
+.img1, .img12, .img9, .img8, .img5, .img4 {
   grid-area: img1;
   background-image: url(../imagenes/imge1.png);
   background-size: cover;
@@ -87,105 +119,70 @@ section .card {
 }
 
 .img2 {
-  grid-area: img2;
-  background-image: url(../imagenes/paletasLeche.jpg);
   background-position: center;
   background-size: cover;
+  grid-area: img2;
+  background-image: url(../imagenes/paletasLeche.jpg);
 }
 
 .img3 {
-  grid-area: img3;
-  background-image: url(../imagenes/paleta.jpg);
   background-position: center;
   background-size: cover;
+  grid-area: img3;
+  background-image: url(../imagenes/paleta.jpg);
 }
 
 .img4 {
   grid-area: img4;
   background-image: url(../imagenes/imge1.png);
-  background-size: cover;
-  color: #2d365e;
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 .img5 {
   grid-area: img5;
   background-image: url(../imagenes/imge1.png);
-  background-size: cover;
-  color: #2d365e;
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 .img6 {
-  grid-area: img6;
-  background-image: url(../imagenes/heladosLeche.jpg);
   background-position: center;
   background-size: cover;
+  grid-area: img6;
+  background-image: url(../imagenes/heladosLeche.jpg);
 }
 
 .img7 {
-  grid-area: img7;
-  background-image: url(../imagenes/tipoPolrt.jpg);
   background-position: center;
   background-size: cover;
+  grid-area: img7;
+  background-image: url(../imagenes/tipoPolrt.jpg);
 }
 
 .img8 {
   grid-area: img8;
   background-image: url(../imagenes/imge1.png);
-  background-size: cover;
-  color: #2d365e;
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 .img9 {
   grid-area: img9;
   background-image: url(../imagenes/imge1.png);
-  background-size: cover;
-  color: #2d365e;
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 .img10 {
-  grid-area: img10;
-  background-image: url(../imagenes/helado.jpg);
   background-position: center;
   background-size: cover;
+  grid-area: img10;
+  background-image: url(../imagenes/helado.jpg);
 }
 
 .img11 {
+  background-position: center;
+  background-size: cover;
   grid-area: img11;
   background-image: url(../imagenes/chococono.png);
-  background-position: center;
-  background-size: flex;
 }
 
 .img12 {
   grid-area: img12;
   background-image: url(../imagenes/imge1.png);
-  background-size: cover;
-  color: #2d365e;
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 footer {
@@ -208,30 +205,10 @@ footer i {
   margin-top: 50px;
 }
 
-article .ubicacion {
+article.ubicacion {
   align-items: center;
-}
-
-section h1 {
-  color: #f36880;
-  font-size: 40px;
-  line-height: 100px;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  background-color: #f7dde2;
-  margin-top: 30px;
-}
-
-.parrafo {
-  color: #2d365e;
-  font-weight: 400;
-  font-size: 17px;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-}
-
-.ubicacion {
   margin-top: 50px;
+  margin-left: 50px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 720px) {

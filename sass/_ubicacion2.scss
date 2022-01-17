@@ -1,25 +1,7 @@
-article .ubicacion {
-    align-items: center;
-}
-
-section h1 {
-    color: rgb(243, 104, 128);
-    font-size: $px2;
-    line-height: $px5;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    background-color: rgb(247, 221, 226);
-    margin-top: $px3;
-}
-
-.parrafo {
-    color: $color4;
-    font-weight: 400;
-    font-size: 17px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
-.ubicacion{
-    margin-top: $px;
+article{
+    &.ubicacion {
+        align-items: center;
+        margin-top: $px;
+        margin-left: $px;
+    }
 }
