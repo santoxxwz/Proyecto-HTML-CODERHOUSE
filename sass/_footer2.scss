@@ -1,0 +1,24 @@
+body {
+    background-color: $color1;
+    &.container {
+        margin-top: $px2;
+        &.navbar {
+            background-color: $color2 !important;
+            &.navbar-brand .imgL {
+                width: $px5;
+                height: $px5;
+            &.nav-link {
+            color: $color3 !important;
+            }
+        }
+    }
+}
+}
+.divcoder {
+    height: 200px;
+    border: 2px solid black !important;
+}
+
+main {
+    margin-top: $px3;
+}

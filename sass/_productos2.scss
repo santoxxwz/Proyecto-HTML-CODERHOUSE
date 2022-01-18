@@ -18,10 +18,14 @@ section .card {
     ;
 
 }
+<<<<<<< HEAD
 @mixin sizes ($bposition, $bsize,){
     background-position: $bposition;
     background-size: $bsize;
 }    
+=======
+
+>>>>>>> 1ae913dab12844cf93ade6844c8b457cd0c48192
 .img1 {
     grid-area: img1;
     background-image: url(../imagenes/imge1.png);
@@ -35,22 +39,37 @@ section .card {
 }
 
 .img2 {
+<<<<<<< HEAD
     @include sizes(center,cover);
     grid-area: img2;
     background-image: url(../imagenes/paletasLeche.jpg);
 
+=======
+    grid-area: img2;
+    background-image: url(../imagenes/paletasLeche.jpg);
+    background-position: center;
+    background-size: cover;
+>>>>>>> 1ae913dab12844cf93ade6844c8b457cd0c48192
 
 }
 
 .img3 {
+<<<<<<< HEAD
     @include sizes(center,cover);
     grid-area: img3;
     background-image: url(../imagenes/paleta.jpg);
 
+=======
+    grid-area: img3;
+    background-image: url(../imagenes/paleta.jpg);
+    background-position: center;
+    background-size: cover;
+>>>>>>> 1ae913dab12844cf93ade6844c8b457cd0c48192
 
 }
 
 .img4 {
+<<<<<<< HEAD
     @extend .img1;
     grid-area: img4;
     background-image: url(../imagenes/imge1.png);
@@ -67,10 +86,42 @@ section .card {
     grid-area: img6;
     background-image: url(../imagenes/heladosLeche.jpg);
 
+=======
+    grid-area: img4;
+    background-image: url(../imagenes/imge1.png);
+    background-size: cover;
+    color: $color4;
+    font-size: $px2;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img5 {
+    grid-area: img5;
+    background-image: url(../imagenes/imge1.png);
+    background-size: cover;
+    color: $color4;
+    font-size: $px2;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img6 {
+    grid-area: img6;
+    background-image: url(../imagenes/heladosLeche.jpg);
+    background-position: center;
+    background-size: cover;
+>>>>>>> 1ae913dab12844cf93ade6844c8b457cd0c48192
 
 }
 
 .img7 {
+<<<<<<< HEAD
     @include sizes(center,cover);
     grid-area: img7;
     background-image: url(../imagenes/tipoPolrt.jpg);
@@ -108,6 +159,63 @@ section .card {
     @extend .img1;
     grid-area: img12;
     background-image: url(../imagenes/imge1.png);
+=======
+    grid-area: img7;
+    background-image: url(../imagenes/tipoPolrt.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img8 {
+    grid-area: img8;
+    background-image: url(../imagenes/imge1.png);
+    background-size: cover;
+    color: $color4;
+    font-size: $px2;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img9 {
+    grid-area: img9;
+    background-image: url(../imagenes/imge1.png);
+    background-size: cover;
+    color: $color4;
+    font-size: $px2;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img10 {
+    grid-area: img10;
+    background-image: url(../imagenes/helado.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img11 {
+    grid-area: img11;
+    background-image: url(../imagenes/chococono.png);
+    background-position: center;
+    background-size: flex;
+}
+
+.img12 {
+    grid-area: img12;
+    background-image: url(../imagenes/imge1.png);
+    background-size: cover;
+    color: $color4;
+    font-size: $px2;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+>>>>>>> 1ae913dab12844cf93ade6844c8b457cd0c48192
 }
 
 footer {
