@@ -1,4 +1,4 @@
-section{
+section {
     h1 {
         color: rgb(243, 104, 128);
         font-size: $px2;
@@ -7,12 +7,13 @@ section{
         text-align: center;
         background-color: rgb(247, 221, 226);
         margin-top: $px3;
-            &.parrafo {
-                color: $color4;
-                font-weight: 400;
-                font-size: 17px;
-                font-family: 'Roboto', sans-serif;
-                text-align: center;
-            }
+
+        &.parrafo {
+            color: $color4;
+            font-weight: 400;
+            font-size: 17px;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
         }
     }
+}

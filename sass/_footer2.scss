@@ -1,18 +1,20 @@
 body {
     background-color: $color1;
 
-.container {
-    margin-top: $px2;
+    .container {
+        margin-top: $px2;
 
-.navbar {
-    background-color: $color2 !important;
-.navbar-brand .imgL {
-    width: $px5;
-    height: $px5;
+        .navbar {
+            background-color: $color2 !important;
+
+            .navbar-brand .imgL {
+                width: $px5;
+                height: $px5;
+            }
+
+            .nav-link {
+                color: $color3 !important;
+            }
+        }
     }
-    .nav-link {
-        color: $color3 !important;
-    }
-}
-}
 }

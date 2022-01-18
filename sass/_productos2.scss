@@ -18,10 +18,12 @@ section .card {
     ;
 
 }
-@mixin sizes ($bposition, $bsize,){
+
+@mixin sizes ($bposition, $bsize, ) {
     background-position: $bposition;
     background-size: $bsize;
-}    
+}
+
 .img1 {
     grid-area: img1;
     background-image: url(../imagenes/imge1.png);
@@ -35,7 +37,7 @@ section .card {
 }
 
 .img2 {
-    @include sizes(center,cover);
+    @include sizes(center, cover);
     grid-area: img2;
     background-image: url(../imagenes/paletasLeche.jpg);
 
@@ -43,7 +45,7 @@ section .card {
 }
 
 .img3 {
-    @include sizes(center,cover);
+    @include sizes(center, cover);
     grid-area: img3;
     background-image: url(../imagenes/paleta.jpg);
 
@@ -63,7 +65,7 @@ section .card {
 }
 
 .img6 {
-    @include sizes(center,cover);
+    @include sizes(center, cover);
     grid-area: img6;
     background-image: url(../imagenes/heladosLeche.jpg);
 
@@ -71,7 +73,7 @@ section .card {
 }
 
 .img7 {
-    @include sizes(center,cover);
+    @include sizes(center, cover);
     grid-area: img7;
     background-image: url(../imagenes/tipoPolrt.jpg);
 
@@ -91,14 +93,14 @@ section .card {
 }
 
 .img10 {
-    @include sizes(center,cover);
+    @include sizes(center, cover);
     grid-area: img10;
     background-image: url(../imagenes/helado.jpg);
 
 }
 
 .img11 {
-    @include sizes(center,cover);
+    @include sizes(center, cover);
     grid-area: img11;
     background-image: url(../imagenes/chococono.png);
 
