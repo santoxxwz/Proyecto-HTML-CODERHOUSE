@@ -6,13 +6,15 @@
     @each $red,
     $color in $redes {
         .btn--#{$red} {
-            background-color: $color;
+            margin-top: 50px;
+            background-color: #eff4fe;
             height: 70px;
-            width: 500px;
-            color: rgb(230, 46, 174);
-            border: 1px solid $color1;
-            margin-left: 150px;
-            text-align: center;
+            width: 400px;
+            color: #e62eae;
+            border: 1px solid #ffddf2;
+            margin: auto;
+            margin-right: 40%;
+            margin-left: 35%;
             color: #fff;
 
         }
@@ -25,6 +27,8 @@
         height: $px7;
         width: $px7;
         background-repeat: no-repeat;
+        margin-left: 60%;
+        margin-top: 50px;
     }
 
     & .n-right2 {
@@ -32,11 +36,18 @@
         height: $px7;
         width: $px7;
         background-repeat: no-repeat;
+        margin-left: 60%;
     }
 }
 
 section .textN {
     color: rgb(230, 46, 174);
-
+    margin: auto;
     margin-top: 20px;
+    text-align: center;
+}
+.nosotros p{
+margin-right: 0px;
+text-align: center;
+margin-left: 50%;
 }
